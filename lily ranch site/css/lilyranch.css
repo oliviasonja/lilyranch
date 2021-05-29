@@ -21,7 +21,8 @@ html {
     position: static;
     background-color:rgb(207, 185, 202);
     height: 70px;
-    margin: 0;
+    margin:0;
+    padding-bottom: 80px;
     width: 100%;
 }
  
@@ -38,7 +39,6 @@ ul {
     justify-content: space-evenly;
 }
  
-
  
 li {
     float: left;
@@ -77,8 +77,26 @@ h2 {
     justify-content: center;
     font-weight: bold;
     font-size: 25px;
-    margin-top: 110px;
+    margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.title {
+    font-size: 28px;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.lagarregler {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 15px;
 }
 
 .leftcol {
@@ -269,4 +287,101 @@ th, td {
     font-size: small;
     margin-left: 4px;
     font-style: italic;
+}
+
+@media screen and (max-width: 794px) {
+    body {
+        margin: 0px;
+        background-color: rgb(210, 223, 228);
+        line-height: 1.8em;
+    }
+
+    h1 {
+        font-size: 23px;
+        margin-top: 0px;
+        padding-top: 10px;
+        background-color:rgb(207, 185, 202);
+    }
+
+    .photos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    img {
+        width: 100%;
+        height: 40%;
+    }
+
+    .helpmepls {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        overflow: hidden;
+        justify-content: center;
+    }
+    
+    .leftcol {
+        font-size: 20px;
+    }
+
+    .whysupport {
+        font-size: 20px;
+    }
+
+    .payus {
+        font-size: 20px;
+        margin: 1px;
+    }
+
+    .aaa {
+        margin: 10px;
+        border-radius: 10px;
+    }
+
+    .bbb {
+        margin: 10px;
+        border-radius: 10px;
+    }
+
+    .ccc {
+        margin: 10px;
+        border-radius: 10px;
+    }
+
+    .ouranimals {
+        font-size: 20px;
+    }
+
+    .omg1 {
+        font-size: 20px;
+    }
+
+    .jeff1 {
+        font-size: 20px;
+    }
+
+    .located {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: space-evenly;
+    }
+
+    .where {
+        font-size: 20px;
+    }
+    .map {
+        margin-bottom: 10px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .godhelp {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hehe {
+        font-size: 20px;
+    }
 }
