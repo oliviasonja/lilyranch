@@ -1,0 +1,387 @@
+.ugh {
+    background-color: rgb(207, 185, 202);
+    margin-bottom: 100px;
+}
+
+h1 {
+    font-style: italic;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    display: block;
+    position: static;
+    background-color:rgb(207, 185, 202);
+    height: 70px;
+    margin:0;
+    padding-bottom: 80px;
+    width: 100%;
+}
+ 
+ul {
+    list-style-type: none;
+    position: static;
+    margin-top: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(207, 185, 202);    
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+ 
+ 
+li {
+    float: left;
+}
+ 
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 0px;
+    text-decoration: none;
+
+}
+ 
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+ 
+body {
+    background-color:rgb(238, 230, 236);
+    line-height: 1.8em;
+    margin: 0;
+}
+ 
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper_2col {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 28px;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.lagarregler {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.leftcol {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.photos {
+    display: flex;
+    height: auto;
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content:space-evenly;
+    
+}
+
+.located {
+    display: flex;
+    flex-wrap:wrap-reverse;
+    justify-content: space-evenly;
+}
+
+.map {
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.where {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    width: 70%;
+    margin-left: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    max-width: 50%
+}
+
+.whysupport {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: white;
+}
+
+.helpmepls {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.payus {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+p {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px;
+}
+
+.aaa {
+    background-color: black;
+    color: white;
+    font-family: cursive;
+    border-radius: 2px;    
+    margin-right: 5px;
+    margin-left: 5px;
+    max-width: 25%;
+    margin-top: 10px;
+}
+
+.bbb {
+    background-color: black;
+    color: white;
+    font-family: cursive;
+    border-radius: 2px;    
+    margin-right: 5px;
+    margin-left: 5px;
+    max-width: 25%;
+    margin-top: 10px;
+}
+
+.ccc {
+    background-color: black;
+    color: white;
+    font-family: cursive;
+    border-radius: 2px;    
+    margin-right: 5px;
+    margin-left: 5px;
+    max-width: 25%;
+    margin-top: 10px;
+}
+
+.ouranimals {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: auto;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: white;
+}
+
+.title2 {
+    font-family: cursive;
+    text-decoration: underline;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.canines {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: 30px;
+    flex-wrap: wrap;
+    background-color:rgb(207, 185, 202);
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.pain {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 100%;
+    width: fit-content;
+    text-align: center;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color:rgb(235, 198, 235);
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+}
+
+.jeff1 {
+    margin: 15px;
+    background-color:lightgrey;
+    font-weight: bold;
+}
+
+.omg1 {
+    font-style: italic;
+}
+
+.godhelp {
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hehe {
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(208, 203, 236);
+    margin-right: 100px;
+    margin-left: 100px;
+    border-radius: 20px;
+}
+.footer {
+    font-style: italic;
+    font-size: small;
+    margin-left: 4px;
+    font-style: italic;
+}
+
+@media screen and (max-width: 794px) {
+    body {
+        margin: 0px;
+        background-color: rgb(210, 223, 228);
+        line-height: 1.8em;
+    }
+
+    h1 {
+        font-size: 23px;
+        margin-top: 0px;
+        padding-top: 10px;
+        background-color:rgb(207, 185, 202);
+    }
+
+    .photos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    img {
+        width: 100%;
+        height: 40%;
+    }
+
+    .helpmepls {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        overflow: hidden;
+        justify-content: center;
+    }
+    
+    .leftcol {
+        font-size: 20px;
+    }
+
+    .whysupport {
+        font-size: 20px;
+    }
+
+    .payus {
+        font-size: 20px;
+        margin: 1px;
+    }
+
+    .aaa {
+        margin: 10px;
+        border-radius: 10px;
+    }
+
+    .bbb {
+        margin: 10px;
+        border-radius: 10px;
+    }
+
+    .ccc {
+        margin: 10px;
+        border-radius: 10px;
+    }
+
+    .ouranimals {
+        font-size: 20px;
+    }
+
+    .omg1 {
+        font-size: 20px;
+    }
+
+    .jeff1 {
+        font-size: 20px;
+    }
+
+    .located {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: space-evenly;
+    }
+
+    .where {
+        font-size: 20px;
+    }
+    .map {
+        margin-bottom: 10px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .godhelp {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hehe {
+        font-size: 20px;
+    }
+}
