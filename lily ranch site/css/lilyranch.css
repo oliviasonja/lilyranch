@@ -296,11 +296,21 @@ th, td {
         line-height: 1.8em;
     }
 
+    .wrapper_2col {
+        margin-top: 60px;
+        overflow: hidden;
+    }
+
+    .li a {
+        margin-bottom: 30px;
+    }
+
     h1 {
         font-size: 23px;
         margin-top: 0px;
         padding-top: 10px;
         background-color:rgb(207, 185, 202);
+        margin-bottom: 0px;
     }
 
     .photos {
@@ -383,5 +393,6 @@ th, td {
 
     .hehe {
         font-size: 20px;
+        margin: 10px;
     }
 }
