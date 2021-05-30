@@ -178,7 +178,7 @@ p {
 .aaa {
     background-color: black;
     color: white;
-    font-family: cursive;
+    font-weight: bold;
     border-radius: 2px;    
     margin-right: 5px;
     margin-left: 5px;
@@ -189,7 +189,7 @@ p {
 .bbb {
     background-color: black;
     color: white;
-    font-family: cursive;
+    font-weight: bold;
     border-radius: 2px;    
     margin-right: 5px;
     margin-left: 5px;
@@ -200,7 +200,7 @@ p {
 .ccc {
     background-color: black;
     color: white;
-    font-family: cursive;
+    font-weight: bold;
     border-radius: 2px;    
     margin-right: 5px;
     margin-left: 5px;

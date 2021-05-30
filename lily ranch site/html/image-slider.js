@@ -9,6 +9,7 @@ showDiv(imageCounter = imageCounter + m);
 function showDiv(n) {
 var i;
 var imageArray = document.getElementsByClassName("mySlides");
+
 if (n > imageArray.length) {
 imageCounter = 1;
 }
@@ -23,3 +24,4 @@ imageArray[i].style.display = "none";
 
 imageArray[imageCounter - 1].style.display = "block";
 }
+
